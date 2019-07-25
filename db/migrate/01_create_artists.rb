@@ -1,6 +1,3 @@
-class Artist < ActiveRecord::Base
-
-end
 class CreateArtists < ActiveRecord::Migration[4.2]
     def change
         create_table :artists do |t|
@@ -11,4 +8,3 @@ class CreateArtists < ActiveRecord::Migration[4.2]
         end
     end
 end
-
